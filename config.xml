@@ -2,7 +2,7 @@
  
 <widget xmls ="http://www.w3.org/ns/widget"
 xmls:gap = "http://phonegap.com/ns/1.0"
-id = "com.phonegao.app1R-julio"
+id = "com.phonegap.app1R-julio"
 version = "8.0.0">
 
 <name> app1 DATOS DEL ALUMNO </name>
