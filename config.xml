@@ -1,34 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+ xmlns:gap = "http://phonegap.com/ns/1.0"
+ id = "com.phonegap.app2"
+ version = "1.0.0">
  
-<widget xmls ="http://www.w3.org/ns/widget"
-xmls:gap = "http://phonegap.com/ns/1.0"
-id = "com.phonegap.app1R-julio"
-version = "1.0.0">
-
-<name> app1 DATOS DEL ALUMNO </name>
-
-<description>
-	Aplicacion nque muestra los DATOS del alumno 
-</description>
-
-<author href="https://build.phonegap.com" email="cb16.galindo.rodriguez.esteban@gmail.com">
-Esteban Samuel Galindo Rodríguez
-</author>
-
-<!--Personaliza la apliacion y plataforma-->
-<preference name="orientation" value="default" />
-
-
-<preference name="target-device" value="universal" />
-<preference name="fullscreen" value="true" />
-<preference name="android-installLocation" value="auto" />
-<preference name="permissions" value="INTERNET" />
-
-<!--plugins-->
-<plugin name="cordova-plugin-device" spec="~1.1.4" />
-<plugin name="cordova-plugin-vibration" spec="~2.1.3" />
-<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
-
-<!--Colocar icono apliacion-->
-<icon src="res/android/mdpi.png" />
-</widget>
+ <name> app2-Especialidad Tecnico en Programación </name>
+ 
+ <description>
+ Aplicacion que muestra informacion sobre la especialidad de Técnico en Programación CBTis
+ </description>
+ 
+ <author href="https://build.phonegap.com" email = "cb16.flores.aracen.itzelgmail.com">
+ Flores Aracen Rosita Itzel
+ </author>
+ 
+ <!--personaliza la aplicacion y plataforma -->
+ <preference name = "orientation" value="default"/>
+ <!--<preference name = "orientation" value = "portrait"/>
+ <preference name= "orientation" value="landscape"/>-->
+ <preference name = "target-device" value= "universal"/>
+ <preference name = "fullscreen" value = "true"/> 
+ <preference name = "android-installLocation" value="auto"/>
+ <preference name = "permissions" value = "INTERNET"/>
+ 
+ <!--plugins -->
+ <plugin name = "cordova-plugin-device" spec = "~1.1.4"/>
+ <plugin name = "cordova-plugin-vibration" spec = "~2.1.3"/>
+ <plugin name = "cordova-plugin-dialogs" spec = "~1.3.1"/>
+ 
+ <!--Para accesar a paginas en internet-->
+ <allow-intent href="https://*/*"/>
+ <acces origin="http://*/*"/>
+<allow-intent href="http://*/*"/>
+ <acces origin="http://*/*"/>
+ <plugin name="cordova-plugin-whitelist"source="npm"/>
+ 
+ <!-- Colocar icono app-->
+ <icon src = "res/android/mdpi.png"/>
+ 
+ </widget>
