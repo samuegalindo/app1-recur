@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Datos personales del Alumno </title>
+
+<!--grupo CSS-->
+
+<link rel="stylesheet" href="css/tema-appre1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JS-->
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.com"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar">
+<h1>Datos personales del Alumno</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Foto del perfil</h1>
+<div>
+<p>Esta es mi foto de perfil</p>
+<br>
+<img src="imagenes/fotoperfil.jpg" width="50%" height="50%" />
+</div>
+</div>
+</div>
+<div>
+	<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Nombre</h2>
+    <p>Se muestra el nombre</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Fecha de nacimiento</h2>
+    <p>Se muestra la fecha de nacimiento y signo zodiacal</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Domicilio</h2>
+    <p>Se muestra la dirección y/o domicilio</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Deporte(s) favorito(s)</h2>
+    <p>Se muestra el deporte favorito del alumno</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Gustos e intereses</h2>
+    <p>Se muestran los gustos o intereses del alumno</p>
+    </a>
+    </li>
+    </ul>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <div>
+    <h4>Aplicacion 1 de Recursamiento DAM</h4>
+    <h4>Esteban Samuel Galindo Rodríguez</h4>
+    </div>
+    </div>
+    </div>
+    
+    <div data-role="page" id="Pagina1" data-add-back-btn="true"  data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Se muestra el nombre</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <h2>Esteba  Sasmuel Galindo Rodriguez</h2>
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <h4>Aplicación Uno, GRES</h4>
+    </div>
+    </div>
+    <div data-role="page" id="Pagina2" data-add-back-btn="true"  data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Se muestra fecha de nacimiento</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <h2>02 de frebrero de 2002 nacion en la sala de un hospital nacio Samuel xdxdxd</h2>
+    <img src="imagenes/signozodiaco.gif" width="50%" height="50%">
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <h4>Aplicación Uno, GRES</h4>
+    </div>
+    </div>
+    <div data-role="page" id="Pagina3" data-add-back-btn="true"  data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Domicilio</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <h2>Calle 1ra Benito Juarez #1 Metepec</h2>
+    <img src="imagenes/domicilio.jpg" width="50%" height="50%">
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <h4>Aplicación Uno, GRES</h4>
+    </div>
+    </div>
+    <div data-role="page" id="Pagina4" data-add-back-btn="true"  data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Se muestra Deporte favorito</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <h2>Mi deporte favorito es el futbol el basquetbol</h2>
+    <img src="imagenes/deporte.jpg" width="50%" height="50%">
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <h4>Aplicación Uno, GRES</h4>
+    </div>
+    </div>
+    <div data-role="page" id="Pagina5" data-add-back-btn="true"  data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Se muestra gustos e intereses</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <h2>Me gusta escuchar musica, pasar timepo con mis amigos,pasar tiempo con mi novia, jugar videojuegos</h2>
+    <img src="imagenes/videojuegos.jpg" width="50%" height="50%">
+    <br>
+    <img src="imagenes/musica.jpg" width="50%" height="50%">
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <h4>Aplicación Uno, GRES</h4>
+    </div>
+    </div>
+    </body>
+    </html>
+    
+   
+    
+    
